@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width:1177px) and (min-width:1058px){
+    #usCard{
+        margin-left: 25px;
+        /* background-color: red; */
+    }
+    #canadaCard{
+        margin-left:0px;
+        /* background-color: green; */
+
+    }
+
+}
+@media screen and (min-width:1178px) {
+    #usCard{
+       margin-left: 20px;
+       margin-right: 15px;
+    }
+
+    #canadaCard{
+        margin-left: 25px;
+
+    }
+    #indiaCard{
+        margin-left: 40px;
+        margin-right: 28px;
+    }
+    }
+
+
+    @media screen and (max-width:737px) {
+        #usCard{
+            margin-left: 18px;
+            /* background-color: red; */
+         }
+         #canadaCard{
+             margin-left: 25px;
+     
+         }
+         #englandCard{
+            margin-left: 35px;
+         }
+        /* #alarmElem{
+            background-color: red;
+        
+        } */
+        #indiaCard{
+            margin-left:20px;
+        }
+        
+    }
+ 
+    @media screen and (min-width:512px) {
+        #alarmElem{
+            width: 360px;
+            height: 20vh;
+            margin-top: 35px;
+            margin-left: 10px;
+            margin-bottom:103px;
+        }
+
+        
+    }
+    #alarmCont{
+        display: flex;
+        justify-content: center;
+
+    }
+    @media screen and (max-width:1032px) {
+        #canadaCard{
+            margin-left: 15px;
+        }
+        
+    }
+
+
+    @media screen and (max-width:512px) {
+        
+    #alarmElem{
+        width: 360px;
+        height: 20vh;
+        margin-top: 35px;
+        margin-left: 10px;
+        margin-bottom:103px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    /* #next{
+        height: 100px;
+    }
+    #prev{
+        height: 100px;
+    } */
+}
+@media screen and (min-width:993px){
+
+
+    #next{
+        height: 68vh;
+    }
+    #prev{
+        height: 68vh;
+
+    }
+
+
+    
+}
